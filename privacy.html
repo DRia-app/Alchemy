@@ -13,9 +13,7 @@
     --text-dim: #8899bb;
     --border: #424961;
   }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
-
   body {
     background: var(--bg);
     color: var(--text);
@@ -26,19 +24,16 @@
     margin: 0 auto;
     line-height: 1.8;
   }
-
   h1 {
     font-size: 1.6rem;
     color: var(--blue);
     margin-bottom: 8px;
   }
-
   .updated {
     font-size: 0.85rem;
     color: var(--text-dim);
     margin-bottom: 32px;
   }
-
   h2 {
     font-size: 1rem;
     color: var(--blue);
@@ -46,15 +41,12 @@
     margin-bottom: 8px;
     font-weight: 400;
   }
-
   p {
     font-size: 0.92rem;
     color: var(--text-dim);
     margin-bottom: 12px;
   }
-
   a { color: var(--blue); }
-
   .back {
     display: inline-block;
     margin-top: 40px;
@@ -62,39 +54,71 @@
     color: var(--blue);
     text-decoration: none;
   }
-
   .back:hover { text-decoration: underline; }
+  .notice {
+    background: #1A1A2E;
+    border-left: 3px solid var(--blue);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    border-radius: 0 4px 4px 0;
+  }
 </style>
 </head>
 <body>
-
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: May 1, 2026</p>
-
+<p class="updated">Last updated: June 15, 2026</p>
 <p>This Privacy Policy describes how Alchemy Elements ("the App") handles information in relation to your use of the App.</p>
 
 <h2>1. Information We Collect</h2>
-<p>The App does not collect, store, or transmit any personally identifiable information. No registration or account creation is required to use the App.</p>
-<p>The App stores game progress data (discovered elements, achievements, settings) locally on your device using Android SharedPreferences and local storage. This data never leaves your device.</p>
+<p>The App itself does not collect, store, or transmit any personally identifiable information. No registration or account creation is required to use the App.</p>
+<p>The App stores game progress data (discovered elements, achievements, settings) locally on your device using Android SharedPreferences and local storage. This data never leaves your device and is not accessible to us.</p>
+<p>However, the third-party advertising services integrated into the App (described in Section 2) may collect certain data automatically when you use the App. This may include:</p>
+<p>— Device identifiers (such as the Android Advertising ID)<br>
+— IP address and approximate location<br>
+— Device type, operating system version, and language<br>
+— Ad interaction data (impressions, clicks)<br>
+— Usage and diagnostic data</p>
+<p>This data is collected and processed by the advertising services under their own privacy policies, not by us.</p>
 
 <h2>2. Third-Party Advertising</h2>
-<p>The App uses third-party advertising services (Google AdMob and Yandex Ads) to display advertisements. These services may collect certain data from your device in accordance with their own privacy policies, including device identifiers and usage data for the purpose of serving relevant ads.</p>
+<p>The App uses third-party advertising services to display advertisements. These services operate independently and are subject to their own privacy policies.</p>
+
+<p><strong style="color:#fff;font-weight:400;">Google AdMob</strong><br>
+AdMob may collect device identifiers and usage data to serve relevant advertisements, including interest-based (personalized) ads. AdMob may use the Android Advertising ID and other device signals for ad targeting and measurement.</p>
+<p>You can opt out of personalized advertising by Google by visiting your device's <strong style="color:#fff;font-weight:400;">Settings → Google → Ads → Opt out of Ads Personalization</strong>, or by visiting: <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com</a></p>
 <p>Google AdMob Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
-<p>Yandex Ads Privacy Policy: <a href="https://yandex.com/legal/confidential" target="_blank">https://yandex.com/legal/confidential</a></p>
 
-<h2>3. Permissions</h2>
-<p>The App requests only the permissions necessary for its operation: internet access (for displaying advertisements) and access to audio settings (for muting game sounds).</p>
+<p><strong style="color:#fff;font-weight:400;">Yandex Ads</strong><br>
+Yandex Ads may collect device identifiers, IP addresses, and usage data to serve advertisements. Please note that Yandex may transfer collected data to third countries, including Russia, which may not provide the same level of data protection as your country of residence.</p>
+<p>Yandex Ads Privacy Policy: <a href="https://yandex.com/legal/international_ads_privacy_policy/en/" target="_blank">https://yandex.com/legal/international_ads_privacy_policy/en/</a></p>
 
-<h2>4. Children's Privacy</h2>
-<p>The App is not directed to children under the age of 13. We do not knowingly collect personal information from children.</p>
+<h2>3. Advertising and Age Restrictions</h2>
+<div class="notice">
+  The App has a content rating of 3+ (suitable for all ages). However, the advertising networks used in the App are configured to serve ads rated for audiences aged 13 and older, in accordance with the ad networks' policies. The App does not target children as its primary audience and is not enrolled in Google Play's Designed for Families program.
+</div>
+<p>We do not knowingly enable personalized or behavioral advertising directed at users under the age of 13. In accordance with the Children's Online Privacy Protection Act (COPPA) and applicable Google policies, ad requests in the App are not tagged for child-directed treatment, as the App targets a general (non-child-directed) audience.</p>
+<p>If you are a parent or guardian and believe your child under 13 is using the App, please contact us at the address below.</p>
 
-<h2>5. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date.</p>
+<h2>4. Permissions</h2>
+<p>The App requests only the permissions necessary for its operation:</p>
+<p>— <strong style="color:#fff;font-weight:400;">INTERNET</strong> — required to load and display advertisements.<br>
+— <strong style="color:#fff;font-weight:400;">MODIFY_AUDIO_SETTINGS</strong> — used to allow the in-game mute/unmute function.</p>
+<p>The App does not request access to your camera, microphone, contacts, location, or any other sensitive data.</p>
 
-<h2>6. Contact</h2>
+<h2>5. Your Rights (GDPR / Data Subject Rights)</h2>
+<p>If you are located in the European Economic Area (EEA) or another jurisdiction with applicable data protection laws, you may have the right to access, correct, or request deletion of personal data collected about you by the advertising services.</p>
+<p>To exercise these rights regarding data collected by Google AdMob, visit: <a href="https://myaccount.google.com/data-and-privacy" target="_blank">https://myaccount.google.com/data-and-privacy</a></p>
+<p>To exercise these rights regarding data collected by Yandex Ads, refer to their privacy policy linked above.</p>
+<p>For any other privacy-related requests, please contact us using the information in Section 7.</p>
+
+<h2>6. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+<h2>7. Contact</h2>
 <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:o_ria@vk.com">o_ria@vk.com</a></p>
 
 <a class="back" href="index.html">← Back to Alchemy Elements</a>
-
 </body>
 </html>
